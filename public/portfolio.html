@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/require.css"/>
+    <link rel="stylesheet" href="./assets/css/pages/portfolio.css"/>
+    <link rel="preload" href="./assets/images/hero-banner.png"/>
+</head>
+<body>
+    <div class="preloader" data-loader>
+        <div class="preloader-circle">
+
+        </div>
+      </div>
+
+<!-- //header -->
+<header class="header" data-header>
+  <div class="container">
+    <a href="./index.html" class="logo">
+      <img src="./assets/images/logo.svg" width="151"  height="128" alt=""/>
+
+    </a>
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="./index.html" class="label-lg navbar-link has-after " >Home</a>
+
+        </li>
+        <li class="navbar-item">
+          <a href="./service.html" class="label-lg navbar-link has-after " >Services</a>
+           
+        </li>
+        <li class="navbar-item">
+          <a href="./portfolio.html" class="label-lg navbar-link has-after active">Portfolio</a>
+           
+        </li>
+        <li class="navbar-item">
+          <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
+           
+        </li>
+
+      </ul>
+
+    </nav>
+    <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+    <button class="nav-toggle-btn" aria-label="menu"data-nav-toggler>
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+</header>
+<main>
+    <article>
+<!-- <----article--->
+<section class="section portfolio"aria-labelledby="portfolio-label">
+ <div class="container">
+    <h2 class="section-title  port hedline-md text-center" id="portfolio-label">Latest Projects</h2>
+    <ul class="portfolio">
+        <li class="list">
+            <div class="portfolio-card">
+                <div class="card-banner img-holder"style="--width:800;--height:800;">
+                   <img src="./assets/images/netflix.jpg" width="800" height="540"
+                   loading="lazy" class="img-cover"/>
+                     <a href="https://netflix-17fca.web.app" class="btn-icon"aria-label="More about website Design">
+                      <i class="fa-solid fa-up-right-from-square fa-lg "></i>
+
+                      
+                     </a>
+                </div>
+                <div class="card-content">
+                    <span class="chip label-md">
+                        Web Design
+                    </span>
+                    <h3 class="title-md">Replica Of Netflix</h3>
+                    <p class="card-text">
+                      The Netflix Replica project aims to recreate the popular streaming service's user interface and functionality. It leverages HTML, Tailwind CSS, React for the frontend, Firebase for user authentication and data storage, and external APIs for fetching movie and TV show data.
+                    </p>
+                    <a href="https://github.com/Rohit-Singh-Suriyal/netlflix.git" class="btn btn-primary">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </li>
+       
+        <li class="list">
+          <div class="portfolio-card">
+              <div class="card-banner img-holder"style="--width:800;--height:800;">
+                 <img src="./assets/images/gallery.jpg" width="800" height="540"
+                 loading="lazy" class="img-cover"/>
+                   <a href="https://image-gallery-react-18.netlify.app" class="btn-icon"aria-label="More about website Design">
+                    <i class="fa-solid fa-up-right-from-square fa-lg .btn-icon"></i>
+                   </a>
+              </div>
+              <div class="card-content">
+                  <span class="chip label-md">
+                      Web Design
+                  </span>
+                  <h3 class="title-md">Image Search gallery</h3>
+                  <p class="card-text">
+                    The Image Search Gallery project is a web-based application that allows users to search for images using keywords. It leverages HTML, Tailwind CSS, React for the frontend, and an external API (e.g., Unsplash, Pixabay) to fetch and display images based on user queries.
+                  </p>
+                  <a href="https://github.com/Rohit-Singh-Suriyal/gallery.git" class="btn btn-primary">
+                      View Project
+                  </a>
+              </div>
+          </div>
+      </li>
+      <li class="list">
+        <div class="portfolio-card">
+            <div class="card-banner img-holder"style="--width:800;--height:800;">
+               <img src="./assets/images/food.jpg" width="800" height="540"
+               loading="lazy" class="img-cover"/>
+                 <a href="https://meal-cart-react-js.netlify.app" class="btn-icon"aria-label="More about website Design">
+                  <i class="fa-solid fa-up-right-from-square fa-lg "></i>
+                 </a>
+            </div>
+            <div class="card-content">
+                <span class="chip label-md">
+                    Web Design
+                </span>
+                <h3 class="title-md">Food Meal Cart</h3>
+                <p class="card-text">
+                  The "Food Meal Cart" project is a feature-rich web application that harnesses the power of HTML, CSS, JavaScript, React, and Firebase to create an engaging and convenient platform for users to order their favorite meals online. It offers a seamless and responsive user experience, allowing customers to browse a menu, customize their orders, and complete transactions with ease.
+                </p>
+                <a href="https://github.com/Rohit-Singh-Suriyal/Meal.git" class="btn btn-primary">
+                    View Project
+                </a>
+            </div>
+        </div>
+    </li>
+    <li class="list">
+      <div class="portfolio-card">
+          <div class="card-banner img-holder"style="--width:800;--height:800;">
+             <img src="./assets/images/music.jpg" width="800" height="540"
+             loading="lazy" class="img-cover"/>
+               <a href="https://spotify-player-music.netlify.app" class="btn-icon"aria-label="More about website Design"> <i class="fa-solid fa-up-right-from-square fa-lg .btn-icon"></i>
+               </a>
+          </div>
+          <div class="card-content">
+              <span class="chip label-md">
+                 Web Design
+              </span>
+              <h3 class="title-md">Music player</h3>
+              <p class="card-text">
+                The Single-Page Spotify Replica is a web application that mimics the appearance and functionality of the Spotify music streaming platform. Built entirely with HTML, CSS, and JavaScript, this project showcases your web development expertise by recreating the Spotify user interface, allowing users to explore and play music seamlessly.
+              </p>
+              <a href="https://github.com/Rohit-Singh-Suriyal/music.git" class="btn btn-primary">
+                  View Project
+              </a>
+          </div>
+      </div>
+  </li>
+    </ul>
+ </div>
+</section>
+
+
+    </article>
+
+</main>
+<footer class="footer">
+    <div class="container">
+      <ul class="social-list">
+        <li>
+          <a href="#" class="social-list">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-list">
+            <i class="fa-brands fa-twitter fa-lg"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-list">
+            <i class="fa-brands fa-square-instagram fa-lg"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-list">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-list">
+            <i class="fa-brands fa-pinterest fa-lg"></i>
+          
+          </a>
+        </li>
+      </ul>
+      <p class="text-center">&copy; Rftaar 2022 copyright all right reserved</p>
+    </div>
+  </footer>
+  
+
+<script src="https://kit.fontawesome.com/8337c29774.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

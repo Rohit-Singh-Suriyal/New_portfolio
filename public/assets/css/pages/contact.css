@@ -1,0 +1,161 @@
+/*-----------------------------------*\
+  #service.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+ 
+/**
+ * TABLE OF CONTENT
+ *
+ * COMPONENTS
+ * Btn............................Buttons style
+ *
+ * MAIN CONTENT
+ * Contact........................Contact style
+ * Media queries..................Responsive for all devices
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #COMPONENTS
+\*-----------------------------------*/
+
+@import url("../components/btn.css");
+
+
+
+/*-----------------------------------*\
+  #CONTACT
+\*-----------------------------------*/
+*{
+  padding:0;
+  margin:0;
+}
+.contact{
+  background-color: var(--jet);
+  padding-block-start:calc(var(--section-padding)+60px);
+
+}
+.contact .container{
+    display:grid;
+    gap:48px;
+}
+
+.contact-form{
+  background-color: var(--white);
+  padding:25px;
+
+}
+.contact-form{
+  margin-block:5px 30px;
+
+}
+.contact .label{
+  margin-block-end:8px;
+
+}
+.input-field{
+  padding:10px 12px;
+  border:1px solid var(--jet);
+  margin-block-end:24px;
+  outline:none;
+  transition:box-shadow var(--transition-1);
+
+}
+.input-field:focus{
+  box-shadow:inset 0 0 0 1px var(--jet);
+
+}
+textarea{
+  resize:vertical;
+  min-height:100px;
+  max-height:150px;
+
+}
+.contact-list .contact-item{
+ display:flex;
+ align-items: flex-start;
+ gap:15px;
+ margin-bottom: 15px;
+ align-items: center;
+
+
+}
+.contatc-list .contact-item:not(:last-child){
+  scroll-margin-block-end: 35px;
+
+}
+.contact-list .item-icon{
+        color:var(--jet);
+        width:55px;
+        height:55px;
+        display:flex;
+        place-items: center;
+       justify-content: center;
+        flex-shrink: 0;
+        font-size:2.5rem;
+
+
+
+}
+.contact .label-lg{
+  color:rgb(209, 206, 206);
+  text-transform: uppercase;
+  letter-spacing:2px;
+  font-weight:var(--fw-400);
+  margin-block-end:5px;
+
+}
+.contact .body-lg{
+  color:var(--white);
+
+
+}
+.contact-item a{
+  color:white;
+  word-break: break-all;
+}
+.con{
+  padding-top:57px;
+}
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+@media(min-width:768px){
+  .contact-form{
+    padding:35px;
+
+  }
+  .wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:20px;
+
+  }
+}
+@media (min-width:992px){
+  .contact .container{
+    grid-template-columns: 1fr 0.9fr;
+    align-items: center;
+    margin-top:50px;
+  }
+  .contact-form{
+      margin-top:71px;
+  }
+  .contact-content{
+    width:70%;
+    margin-inline:auto;
+  }
+  
+}
+.success{
+  color:red;
+  margin-top:10px;
+  font-weight:bold;
+  
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/require.css"/>
+    <link rel="stylesheet" href="./assets/css/pages/contact.css"/>
+    <link rel="preload" href="./assets/images/hero-banner.png"/>
+</head>
+<body>
+    <div class="preloader" data-loader>
+        <div class="preloader-circle">
+
+        </div>
+      </div>
+
+      <header class="header" data-header>
+        <div class="container">
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="151"  height="128" alt=""/>
+      
+          </a>
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="./index.html" class="label-lg navbar-link has-after " >Home</a>
+      
+              </li>
+              <li class="navbar-item">
+                <a href="./service.html" class="label-lg navbar-link has-after " >Services</a>
+                 
+              </li>
+              <li class="navbar-item">
+                <a href="./portfolio.html" class="label-lg navbar-link has-after ">Portfolio</a>
+                 
+              </li>
+              <li class="navbar-item">
+                <a href="./contact.html" class="label-lg navbar-link has-after active">Contact</a>
+                 
+              </li>
+      
+            </ul>
+      
+          </nav>
+          <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+          <button class="nav-toggle-btn" aria-label="menu"data-nav-toggler>
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      
+      </header>  
+  <main>
+    <article>
+          <section class="section contact has-bg-image"aria-labelledby="contact-label" style="background-image:url('./assets/images/contact-bg.png');">
+            <div class="container">
+              <form action="" class="contact-form ">
+                <h2 class="headline-sm con" id="contact-label">
+                  Get in Touch
+                </h2>
+                <p class="contact-text body-md">
+                  Our friendly team would love to end you
+                </p>
+                <div class="wrapper">
+                  <div>
+                    <label for="name" class="label">First name</label>
+                    <input  type="text" name="name" id="name" placeholder="Name *" required class="input-field nameform">
+                  </div>
+                  <div>
+                    <label for="name" class="label">Your E-mail</label>
+                    <input type="email" name="name" id="name" placeholder="E-mail*" required class="input-field emailform">
+                  </div>
+                </div>
+                <label for="subject" class="label">subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field subjectform">
+                <label for="message" class="label">Your Message</label>
+                <textarea type="text" name="subject" id="subject" placeholder="Your Message *" class="input-field textform"></textarea>
+                <a href="#"class="btn btn-tertiary formbutton">Send Message</a>
+               </form>
+               <div class="contact-content">
+                <ul class="contact-list">
+                  <li class="contact-item">
+                    <div class="item-icon" style="background-color: hsl(177,39%,72%)">
+                      <i class="fa-solid fa-phone fa-lg"></i>
+                    </div>
+                    <div>
+                      <p class="label-lg">
+                        Phone
+                      </p>
+                      <a href=""style="font-weight:bold">+91 7754093527</a>
+                    </div>
+                  </li>
+                  <li class="contact-item">
+                    <div class="item-icon" style="background-color: hsl(41, 99%, 64%)">
+                      <i class="fa-solid fa-envelope fa-lg"></i>
+                    </div>
+                    <div>
+                      <p class="label-lg">
+                        E-Mail
+                      </p>
+                      <a href="" style="font-weight:bold">rohitsinghsuriyal@gmail.com</a>
+                    </div>
+                  </li>
+                  <li class="contact-item">
+                    <div class="item-icon" style="background-color: hsl(204, 59%, 43%);">
+                      <i class="fa-brands fa-linkedin fa-lg"></i>
+                    </div>
+                    <div>
+                      <p class="label-lg">
+                        LinkedIn
+                      </p>
+                      <a href="https://www.linkedin.com/in/rohit-singh-76a896239/" style="font-weight:bold">www.linkedin.com/in/rohit-singh-76a896239</a>
+                    </div>
+                  </li>
+                  <li class="contact-item">
+                    <div class="item-icon" style="background-color: hsl(266, 28%, 49%);">
+                      <i class="fa-brands fa-github fa-lg"></i>
+                    </div>
+                    <div>
+                      <p class="label-lg">
+                        Github
+                      </p>
+                      <a href="https://github.com/Rohit-Singh-Suriyal" style="font-weight:bold">www.linkedin.com/in/rohit-singh-76a896239</a>
+                    </div>
+                  </li>
+              
+
+
+
+
+
+                  <li class="contact-item">
+                    <div class="item-icon" style="background-color: hsl(115, 53%, 69%);">
+                      <i class="fa-solid fa-location-dot fa-lg"></i> 
+                    </div>               
+                    <div>
+                      <p class="label-lg">
+                        Address
+                      </p>
+                      <a href="" style="font-weight:bold">Sector-3,3/1034 jankipuram vistaar  lucknow</a>
+                    </div>
+                  </li>
+                </ul>
+               </div>
+    
+            </div>
+          
+          </section>
+    </article>
+  </main>      
+
+
+
+    <footer class="footer">
+        <div class="container">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-list">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-list">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-list">
+                <i class="fa-brands fa-square-instagram fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-list">
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-list">
+                <i class="fa-brands fa-pinterest fa-lg"></i>
+              
+              </a>
+            </li>
+          </ul>
+          <p class="text-center">&copy;Rohit 2022 copyright all right reserved</p>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/8337c29774.js" crossorigin="anonymous"></script>
+      
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
